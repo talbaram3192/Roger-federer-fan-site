@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html>
+<head> 
+<script src="jquery-3.4.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="..\css\homeStyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+the "goat"
+</title>
+<script>
+$(document).ready(function(){
+  $(".popup").hover(function(){
+    myFunction();
+   
+});
+});
+</script>
+</head>
+
+<body>
+<header>
+
+<label><a href="#something" class="sign" id="s1" onclick="change()">sign-up</a></label>
+<label><a href="#something" class="sign" id="s2" onclick="change2()">sign-in</a></label>
+
+<h1>Welcome to Roger<br> Federer's fan site</h1>
+<script>
+function change(){
+document.getElementById("s1").innerHTML="hello roger fan!";
+var x=document.getElementById("s1");
+x.classList.add("newsign");
+}
+function change2(){
+document.getElementById("s2").innerHTML="hello roger fan!";
+var x=document.getElementById("s2");
+x.classList.add("newsign");
+
+}
+</script>
+
+</header>
+
+<main>
+<aside>
+<nav>
+<div class="col-2" id="menu">
+<ul class="ulmenu">
+<li class="active"><a href="..\html\home.html"><b>home</a></li>
+<li><a href="..\html\history.html"><b>history</a></li>
+<li><a href="..\html\future.html"><b>what's coming soon</a></li>
+<li><a href="..\html\fanComments.html"><b>others write on roger</a></li>
+<li><a href="..\html\Tickets_Order.html"><b>buy a ticket to see roger!</a></li>
+</ul>
+</div>
+</nav>
+
+<section>
+<div class="col-2 quote1 quotes">
+<b>"you will not grow if you are not willing to change yourself"
+</div>
+
+<div class="col-2 quotes quote2">
+<p id="quote2"><b>
+"there is no way around hard work. <br> embrace it."
+</p>
+</div>
+</section>
+
+</aside>
+
+<aside>
+
+<article>
+<div class="col-2" id="twitter">
+<a class="twitter-timeline" data-width="400" data-height="450" href="https://twitter.com/rogerfederer?ref_src=twsrc%5Etfw">Tweets by rogerfederer</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</article>
+
+</aside>
+
+<section>
+<div class="text">
+<div class="popup"><h2>who is Roger Federer??</h2>
+  <span class="popuptext" id="myPopup">check our <a href="..\html\history.html">history</a> page to learn more!</span>
+</div>
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<p>
+Roger Federer holds several ATP records and is considered to be one of the greatest tennis players of all time. The Swiss player has 
+proved his dominance on court with 20 Grand Slam titles and 103 career ATP titles. In 2003, he founded the Roger
+ Federer Foundation, which is dedicated to providing education programs for children living in poverty in Africa and Switzerland.
+
+</p>
+</div>
+</section>
+
+
+</main>
+
+<footer>
+<nav>
+<div class="mfooter">
+<ul>
+<li class="lifooter"><a href="https://www.facebook.com/Federer/" target="_blank" class="fa fa-facebook"></a></li>
+<li class="lifooter"><a href="https://twitter.com/rogerfederer" target="_blank" class="fa fa-twitter"></a></li>
+<li class="lifooter"><a href="https://www.youtube.com/watch?v=yj9BPGQs38M" target="_blank" class="fa fa-youtube"></a></li>
+<li class="lifooter"><a href="https://www.instagram.com/rogerfederer/" target="_blank" class="fa fa-instagram"></a></li>
+</ul>
+</div>
+</nav>
+<div class="backfooter col-12">
+<div>
+<p>©2019 federerLovers, Inc. All Rights Reserved</p>
+<p id="contact">contact us in this number: 052-4281373, email: nadalsucks@gmail.com</p>
+
+</div>
+
+
+</div>
+
+</footer>
+
+</body>
+
+
+</html>
+

@@ -1,0 +1,279 @@
+<!doctype html>
+
+<html>
+<head>
+<title>
+the future
+</title>
+<link rel="stylesheet" type="text/css" href="..\css\futureStyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body onload="enter()">
+<header>
+<h1>What's coming<br> soon?</h1>
+<a id="top"></a>
+</header>
+
+<section>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p><b>last tickets left for the australian open! <a class="tickets" href= "..\html\Tickets_Order.html" onclick="ao()">buy now!</a> <img class="firstpicture" src="../images/federer.jpg" height="100" width="150"</p>
+  </div>
+
+</div>
+<script>
+var modal = document.getElementById("myModal");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+function enter() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+
+</section>
+
+<main>
+
+<aside>
+<nav>
+<div class="menu">
+<ul class="ulmenu">
+<li><a class="limenu" href="..\html\home.html"><b>home</a></li>
+<li><a class="limenu" href="..\html\history.html"><b>history</a></li>
+<li class="active"><a class="limenu" href="..\html\future.html"><b>what's coming soon</a></li>
+<li><a class="limenu" href="..\html\fanComments.html"><b>other's write on roger</a></li>
+<li><a class="limenu" href="..\html\Tickets_Order.html"><b>buy a ticket to see roger!</a></li>
+</ul>
+</div>
+</nav>
+</aside>
+
+
+<aside>
+<article>
+<div class="figure1">
+<figure>
+
+<img src="../images/federer zverev.jpg" height="100" width="150">
+<figcaption>
+federer and zverev, <br> to play an exhibition match <br>in <a href="https://www.reuters.com/article/us-tennis-mexico-federer/federer-and-zverev-mexico-city-match-breaks-world-attendance-record-idUSKBN1XY03D" target="_blank">mexico city</a>
+</figcaption>
+
+</figure>
+</div>
+<div class="figure2">
+<figure>
+
+<img src="../images/fedaus.jpg" height="100" width="150">
+<figcaption>
+federer <br>to play 2020 australin open
+</figcaption>
+
+</figure>
+</div>
+</aside>
+
+<aside>
+<div class="figure3">
+<figure>
+
+<img src="../images/aus2020.jpg" height="100" width="150">
+<figcaption>
+federer and stars, <br>to play an exhibition to raise<br> <a href="https://www.abc.net.au/news/2020-01-15/australian-open-rally-for-relief-almost-5-million-for-bushfires/11871752"target="_blank"> bushfire charities</a>
+</figcaption>
+</figure>
+</div>
+</article>
+</aside>
+
+
+<section>
+<div class="title">
+
+
+<p> january 2020</p>
+
+<div class="stuffInMonth">
+
+<div>
+<nav>
+<ul class="month">
+<li class="tournament"><b><img src="../images/atpcup.jpg" height=70 width=80></li>
+<li class="tournament"><b>brisbane/perth/sydney<br>2020.1.1-2020.1.7</li>
+<li class="tournament lessImportant"><b>outdoor<br>hard</li>
+<li class="tournament lessImportant"><b>Total Financial Commitment <br>$15,000,000</li>
+<li class="tournament "><a class="tickets" href="../html/Tickets_Order.html" onclick="atpcup()">buy tickets!</a></li>
+</ul>
+</nav>
+</div>
+
+
+<div>
+<nav>
+<ul class="month">
+<li class="tournament"><b><img src="../images/aologo.jpg" height=70 width=80></li>
+<li class="tournament"><b>melbourne, australia<br>2020.1.30-2020.1.15</li>
+<li class="tournament lessImportant"><b>outdoor<br>hard</li>
+<li class="tournament lessImportant"><b>Total Financial Commitment<br>$32,505,000</li>
+<li class="tournament"><a class="tickets" href="../html/Tickets_Order.html" onclick="ao()">buy tickets!</a></li>
+</ul>
+</nav>
+</div>
+</div>
+
+
+<p class="title"> february 2020</p>
+
+<div class="stuffInMonth">
+<div>
+<nav>
+<ul class="month">
+<li class="tournament"><b><img src="../images/dubailogo.jpg" height=80 width=70></li>
+<li class="tournament"><b>dubai<br>2020.2.10-2020.2.20</li>
+<li class="tournament lessImportant"><b>outdoor<br>hard</li>
+<li class="tournament lessImportant"><b>Total Financial Commitment <br>$2,950,420</li>
+<li class="tournament"><a class="tickets" href="../html/Tickets_Order.html" onclick="dubai()">buy tickets!</a></li>
+</ul>
+</nav>
+</div>
+
+
+<div>
+<nav>
+<ul class="month">
+<li class="tournament"><b><img src="../images/montecarlologo.jpg" height=70 width=80></li>
+<li class="tournament"><b>monte carlo<br>2020.2.22-2020.2.28</li>
+<li class="tournament lessImportant"><b>outdoor<br>clay</li>
+<li class="tournament lessImportant"><b>Total Financial Commitment <br>$5,961,830</li>
+<li class="tournament"><a class="tickets" href="../html/Tickets_Order.html" onclick="montecarlo()">buy tickets!</a></li>
+</ul>
+</nav>
+</div>
+
+</div>
+
+
+
+<p class="title"> march 2020</p>
+
+<div class="stuffInMonth">
+<div>
+<nav>
+<ul class="month">
+<li class="tournament"><b><img src="../images/madridlogo.png" height=130 width=140></li>
+<li class="tournament"><b>madrid<br>2020.3.5-2020.3.12</li>
+<li class="tournament lessImportant"><b>outdoor<br>clay</li>
+<li class="tournament lessImportant"><b>Total Financial Commitment <br>$7,659,165</li>
+<li class="tournament"><a class="tickets" href="../html/Tickets_Order.html" onclick="madrid()">buy tickets!</a></li>
+</ul>
+</nav>
+</div>
+
+
+<div>
+<nav>
+<ul class="month">
+<li class="tournament"><b><img src="../images/rolandgarroslogo.png" height=70 width=80></li>
+<li class="tournament"><b>paris<br>2020.17.3-2020.3.31</li>
+<li class="tournament lessImportant"><b>outdoor<br>clay</li>
+<li class="tournament lessImportant"><b>Total Financial Commitment<br>$30,325,000</li>
+<li class="tournament"><a class="tickets" href="../html/Tickets_Order.html" onclick="paris()">buy tickets!</a></li>
+</ul>
+</nav>
+</div>
+
+
+</div>
+</div>
+
+<script>
+
+
+
+function atpcup(){
+    localStorage.setItem("choice","atpcup");
+}
+function ao(){
+    localStorage.setItem("choice","ao");
+}
+function dubai(){
+    localStorage.setItem("choice","dubai");
+}
+function montecarlo(){
+    localStorage.setItem("choice","montecarlo");
+}
+function madrid(){
+    localStorage.setItem("choice","madrid");
+}
+function paris(){
+    localStorage.setItem("choice","paris");
+}
+
+</script>
+
+
+</section>
+
+</main>
+
+<footer>
+<div class="mfooter">
+<a href="#top" id="button">back up!</a>
+
+<div class="rights">
+<p class="contact">©2019 federerLovers, Inc. All Rights Reserved</p>
+<p>contact us in this number: 052-4281373, email: nadalsucks@gmail.com</p>
+
+</div>
+
+<div class="media">
+<nav>
+<ul>
+<li class="lifooter"><a href="https://www.facebook.com/Federer/" target="_blank" class="fa fa-facebook"></a></li>
+<li class="lifooter"><a href="https://twitter.com/rogerfederer" target="_blank" class="fa fa-twitter"></a></li>
+<li class="lifooter"><a href="https://www.youtube.com/watch?v=yj9BPGQs38M" target="_blank" class="fa fa-youtube"></a></li>
+<li class="lifooter"><a href="https://www.instagram.com/rogerfederer/" target="_blank" class="fa fa-instagram"></a></li>
+</ul>
+</nav>
+</div>
+
+</div>
+
+
+
+</footer>
+
+</body>
+
+
+
+</html>

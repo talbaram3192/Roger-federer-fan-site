@@ -1,0 +1,300 @@
+
+*{box-sizing: border-box;}
+
+	
+
+body{
+    background-image:url('../images/roger2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+[class*="col-"] {
+	float: left;
+	}
+
+.ulmenu {
+  width:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #edf8f8;
+
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:17px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  text-shadow:none;
+}
+
+#menu{
+	top:70px;
+	font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 3px 3px 3px #fff;
+	
+}
+
+
+
+label{
+	margin-right:30px;		
+}
+
+.sign{
+	color:black;
+	font-size:17px;
+}
+
+.quotes{
+  font: 17px 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+.quote1{
+	float:left;
+	padding-top:300px;
+}
+
+.quote2{
+	margin-left:330px;
+	margin-top:100px;
+}
+.text{
+	clear:both;
+	float:left;
+	margin-top:130px;
+	margin-bottom:100px;
+	width:400px;
+	font: 21px 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+h2{
+	border-bottom:solid;
+	text-align:center;
+}
+
+
+@media only screen and (max-width: 1100px) {
+	.quote2{
+		display:none;
+	}
+	
+}
+
+@media only screen and (max-width: 860px) {
+ 
+  #menu {
+	  width:30%;
+	  padding-bottom:140px;
+
+  }
+  .quote1{
+	  clear:both;
+	  padding-top:0;
+	  margin-left:37px;
+	  
+  }
+   #twitter {
+	display:none;
+  }
+  
+}
+@media only screen and (max-width: 767px) {
+ 
+  #menu {
+	  width:100%;
+  }
+  h1{
+	  
+	  text-align:center;
+  }
+
+  li{
+	  padding-bottom:7px;
+	  padding-top:7px;
+	  text-align:center;
+  }
+  
+  body{
+  background-image: none;
+  background-color:#daf1ef;
+  }
+  
+  .backfooter{
+	  text-align:center;
+  }
+
+  .mfooter{
+	  width:70%;
+	  margin:auto;
+  }
+  .quote1{
+	  clear:both;
+	  margin-left:40%;	  
+  }
+  .text{
+	  width:300px;
+	  margin-left:17%;
+	  
+  }
+ 
+
+}
+
+h1 {
+	
+  font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+  
+}
+
+#twitter{
+	float:right;
+}
+
+
+#contact{
+	font-size:13px;
+	font-style:bold;
+	font-family:david;
+}
+	
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ .backfooter {
+  float:left;
+  bottom:0;
+  font-size:10px;
+}
+.mfooter{
+	clear:both;
+	float:left;
+}
+.lifooter{
+	float:right;
+	display:inline-block;
+}
+ .fa { 
+  padding: 10px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .fa:hover { 
+  opacity: 0.7;
+}
+
+
+ .fa-facebook { 
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+	background: red;
+	color:black;
+}
+.fa-instagram {
+	background: lightgreen;
+    color: black;
+}
+.active {
+  background-color: #91d4d4;
+  color: white;
+}
+
+/* pop up content */
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+a{
+	color:#66ccff;
+	font-size:25px;
+}
+.newsign{
+	color:#b30f00;
+	font: 21px 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);	
+}

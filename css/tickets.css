@@ -1,0 +1,283 @@
+
+
+		.agreed {
+			color: black;
+			font-family: arial;
+			font-size: 12.5px;
+
+		}
+
+		img {
+			width: 85px;
+			height: 85px;
+		}
+
+		.cform {
+			clear:both;
+			width:50%;
+			 font: 400 16px/1.2 'Merienda One', Helvetica, sans-serif;
+             color: rgba(0,0,0,0.7);
+			 background-color: #D5D5D5;
+    margin:50px;
+    line-height: 225%;
+    border-color: white;
+    border-style: solid;
+    padding-left: 20px;
+    padding-bottom: 10px;
+		}
+		
+		
+		body {
+			margin: 0px;
+    padding: 0px;
+    background-image: url('../images/5_Roger-Federer.jpg');
+    background-position: left top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+		}
+		header {
+			overflow:auto;
+			background-color: #91d4d4;
+			padding-top: 10px;
+			padding-bottom: 15px;
+			color: white;
+			border-style: solid;
+			border-color: #91d4d4;
+			margin: none;
+
+			
+		}
+
+		#header {
+				 font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 3px 3px 3px #fff;
+				font-size: 40px;
+				font-weight: bold;
+					font-style: italic;
+					float: left;
+					
+					
+
+		}
+		.login {
+			font-size: 17px;
+			font-style: normal;
+			font-weight: normal;
+			text-decoration: underline;
+			float: right;
+			padding-right: 10px;
+			color: white;
+			font-family: sans-serif;
+			padding-top: 32px;
+
+		}
+
+        #sign_in {
+            font-size: 17px;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: underline;
+            float: right;
+            color: white;
+            font-family: sans-serif;
+        }
+
+
+        .login:hover {
+    cursor:not-allowed
+ }
+
+		
+
+
+
+legend{
+color: darkblue;
+font-size: 17px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+ 
+  #menu {
+	  margin:0;
+      width:100%;
+	  text-align:center;
+	  font-size:30px;
+
+  }
+  img {
+		width: 55px;
+		height: 55px;
+	}
+
+.cform{
+	font-size:14px;
+}
+  h1{
+      text-align:center;
+  }
+
+  li{
+      padding-bottom:7px;
+      padding-top:7px;
+      text-align:center;
+  }
+  
+  body{
+  background-image: none;
+  background-color:#daf1ef;
+  }
+ 
+  
+  .backfooter{
+      text-align:center;
+  }
+
+  .mfooter{
+      width:70%;
+      margin:auto;
+  }
+
+
+}
+
+h1 {  
+  font: 30px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+}
+
+#contact{
+    font-size:13px;
+    font-weight:bold;
+}
+    
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ .backfooter {
+  float:left;
+  bottom:0;
+  font-size:11px;
+}
+
+.lifooter{
+    float:left;
+    display:inline-block;
+}
+ .fa { 
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .fa:hover { 
+  opacity: 0.7;
+}
+
+
+ .fa-facebook { 
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+    background: red;
+    color:black;
+}
+.fa-instagram {
+    background: lightgreen;
+    color: black;
+}
+.active {
+  background-color: #91d4d4;
+  color: white;
+}
+
+.ulmenu {
+  width:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #edf8f8;
+
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:17px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  text-shadow:none;
+}
+
+#menu{
+    top:70px;
+    font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 3px 3px 3px #fff;
+    float: left;
+	margin-bottom:15px;
+    padding-top: 50px;
+    padding-left: 50px;
+	
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .login{
+        font-size: 12px;
+        padding-top: 37px;
+    }
+	.footer{
+		margin-left:30%;
+	}
+
+    #header{
+        font-size: 35px;
+        padding-top: 8px;
+        
+    }
+	.cform{
+		margin:0;
+		width:100%;
+	}
+	#menu{
+		padding:0;
+		padding-top:30px;
+	}
+
+
+
+}
+
+
+
+
+
+
+

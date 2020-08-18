@@ -1,0 +1,298 @@
+
+*{box-sizing: border-box;}
+
+	
+
+body{
+    background-image:url('../images/rogercover.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 70%;
+	background-color: #d6d6c2;
+
+}
+
+h1{
+	margin-left:200px;
+    color: rgba(0,0,0,0.7);
+	font: 400 60px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+.ulmenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #edf8f8;
+	
+}
+.limenu {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:17px;
+}
+
+.limenu:hover {
+  background-color: #555;
+  color: white;
+  text-shadow:none;
+}
+.menu{
+	width:220px;
+	float:left;
+	font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 3px 3px 3px #fff;
+	box-shadow: 2px 5px;
+	margin-bottom:40px;
+}
+.active {
+  background-color: #91d4d4;
+  color: white;
+}
+.title{
+	clear:both;
+	background-color:#d6d6c2;
+	width:930px;
+	margin:auto;
+	font: 30px 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	box-shadow: 2px 3px;
+	height:50px;
+	text-align:center;
+}
+
+.stuffInMonth{
+	margin-top:15px;
+}
+.month{
+  width:90%;
+  float:left;
+  box-shadow: 2px 3px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:rgba(0,220,0,0.65);
+  margin-bottom:10px;
+	
+}
+.tournament{
+  width:150px;
+  margin-right:10px;
+  float:left;
+  display: inline-block;
+  color:#1a1a1a;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:20px;
+  text-shadow:none;
+  color:#001a00;
+}
+.tickets{
+	color:#4d0000;
+	font-size:30px;
+}
+.fa { 
+  padding: 10px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ .fa:hover { 
+  opacity: 0.7;
+}
+
+
+ .fa-facebook { 
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+	background: red;
+	color:black;
+}
+.fa-instagram {
+	background: lightgreen;
+    color: black;
+}
+
+.lifooter{
+	display:inline-block;
+	float:right;
+	
+}
+
+.figure1{
+	
+	float:right;
+	
+
+}
+.figure2{
+	clear:both;
+	float:right;
+	
+}
+.figure3{
+	float:left;
+	
+}
+figcaption{
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+}
+.rights{
+	width:300px;
+	margin-left:25%;
+	float:left;
+	text-align:center;
+	font-size:13px;
+}
+.contact{
+	font-size:10px;
+}
+.media{
+	width:200px;
+	float:right;
+	
+}
+#button{
+	clear:both;
+	width:100px;
+	float:left;
+	background-color:#daf1f1;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size:17px;
+
+}
+@media only screen and (max-width: 767px) {
+	
+	.figure1{
+		display:none;
+	}
+	
+	.figure3{
+		display:none;
+	}
+	
+	.figure2{
+		width:80%;
+		/* margin-right:50%; */
+	}
+	body{
+		background-image:none;
+	}
+	.menu{
+		width:100%;
+	}
+	h1{
+	  font-size:45px;
+	  width:80%;
+	  margin:auto;
+	  text-align:center;
+    }
+	.mfooter{
+	}
+	li{
+	  padding-bottom:7px;
+	  padding-top:7px;
+	  text-align:center;
+	}
+	.title{
+		width:100%;
+		background-color:#daf1f1;
+	}
+	.tournament{
+		font-size:15px;
+	}
+	.lessImportant{
+		display:none;
+	}
+	.tickets{
+		font-size:20px;
+	}
+	.month{
+		width:100%;
+	
+	}
+	.rights{
+		width:60px;
+		font-size:10px;
+		margin-left:17%;
+	}
+	#button{
+		width:80px;
+		font-size:11px;
+	}
+	.media{
+		width:180px;
+	}
+	.fa{
+		width:30px;
+	}
+	
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  margin:auto;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  font: 400 20px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+  box-shadow: 2px 5px;
+  text-align:center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.firstpicture{
+	margin-left:4%;
+	margin-top:30px;
+}
+
